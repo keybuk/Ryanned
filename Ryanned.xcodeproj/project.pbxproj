@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2A502071D1280CD008A2A0F /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2A502061D1280CD008A2A0F /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2A5020B1D1280CD008A2A0F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = D2A5020A1D1280CD008A2A0F /* Stickers.xcstickers */; };
+		D2A5020C1D1280CD008A2A0F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = D2A5020A1D1280CD008A2A0F /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2A502081D1280CD008A2A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A501FC1D1280CD008A2A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A502051D1280CD008A2A0F;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2A502121D1280CD008A2A0F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2A502071D1280CD008A2A0F /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D2A502021D1280CD008A2A0F /* Ryanned.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ryanned.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A502061D1280CD008A2A0F /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A5020A1D1280CD008A2A0F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+		D2A502161D1281E9008A2A0F /* Ryanned.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ryanned.psd; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D2A501FB1D1280CD008A2A0F = {
+			isa = PBXGroup;
+			children = (
+				D2A502161D1281E9008A2A0F /* Ryanned.psd */,
+				D2A5020A1D1280CD008A2A0F /* Stickers.xcstickers */,
+				D2A502031D1280CD008A2A0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A502031D1280CD008A2A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A502021D1280CD008A2A0F /* Ryanned.app */,
+				D2A502061D1280CD008A2A0F /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A502011D1280CD008A2A0F /* Ryanned */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A502131D1280CD008A2A0F /* Build configuration list for PBXNativeTarget "Ryanned" */;
+			buildPhases = (
+				D2A502001D1280CD008A2A0F /* Resources */,
+				D2A502121D1280CD008A2A0F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A502091D1280CD008A2A0F /* PBXTargetDependency */,
+			);
+			name = Ryanned;
+			productName = Ryanned;
+			productReference = D2A502021D1280CD008A2A0F /* Ryanned.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		D2A502051D1280CD008A2A0F /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A5020F1D1280CD008A2A0F /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				D2A502041D1280CD008A2A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = D2A502061D1280CD008A2A0F /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A501FC1D1280CD008A2A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Scott James Remnant";
+				TargetAttributes = {
+					D2A502011D1280CD008A2A0F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 79P776W2YF;
+						DevelopmentTeamName = "Scott James Remnant";
+						ProvisioningStyle = Automatic;
+					};
+					D2A502051D1280CD008A2A0F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 79P776W2YF;
+						DevelopmentTeamName = "Scott James Remnant";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2A501FF1D1280CD008A2A0F /* Build configuration list for PBXProject "Ryanned" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2A501FB1D1280CD008A2A0F;
+			productRefGroup = D2A502031D1280CD008A2A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A502011D1280CD008A2A0F /* Ryanned */,
+				D2A502051D1280CD008A2A0F /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A502001D1280CD008A2A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A5020C1D1280CD008A2A0F /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A502041D1280CD008A2A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A5020B1D1280CD008A2A0F /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2A502091D1280CD008A2A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A502051D1280CD008A2A0F /* StickerPackExtension */;
+			targetProxy = D2A502081D1280CD008A2A0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2A5020D1D1280CD008A2A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2A5020E1D1280CD008A2A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2A502101D1280CD008A2A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netsplit.Ryanned.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D2A502111D1280CD008A2A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netsplit.Ryanned.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D2A502141D1280CD008A2A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = Ryanned/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netsplit.Ryanned;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2A502151D1280CD008A2A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = Ryanned/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netsplit.Ryanned;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A501FF1D1280CD008A2A0F /* Build configuration list for PBXProject "Ryanned" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A5020D1D1280CD008A2A0F /* Debug */,
+				D2A5020E1D1280CD008A2A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A5020F1D1280CD008A2A0F /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A502101D1280CD008A2A0F /* Debug */,
+				D2A502111D1280CD008A2A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2A502131D1280CD008A2A0F /* Build configuration list for PBXNativeTarget "Ryanned" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A502141D1280CD008A2A0F /* Debug */,
+				D2A502151D1280CD008A2A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A501FC1D1280CD008A2A0F /* Project object */;
+}
